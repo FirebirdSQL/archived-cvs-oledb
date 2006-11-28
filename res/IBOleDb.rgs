@@ -1,0 +1,27 @@
+HKCR
+{
+	Iboledb.IBOleDb.1 = s 'IBOleDb OLE DB Provider'
+	{
+		CLSID = s '{BF4B098D-5A38-11D2-B260-444553540001}'
+	}
+	Iboledb.IBOleDb = s 'IBOleDb OLE DB Provider'
+	{
+		CLSID = s '{BF4B098D-5A38-11D2-B260-444553540001}'
+		CurVer = s 'Iboledb.IBOleDb.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {BF4B098D-5A38-11D2-B260-444553540001} = s 'IBOleDb OLE DB Provider'
+		{
+			ProgID = s 'Iboledb.IBOleDb.1'
+			VersionIndependentProgID = s 'Iboledb.IBOleDb'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'OLE DB Provider' = s 'IBOleDb OLE DB Provider'
+			OLEDB_SERVICES = d '4294967295'
+			'TypeLib' = s '{BF4B0980-5A38-11D2-B260-444553540001}'
+		}
+	}
+}
