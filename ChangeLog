@@ -1,0 +1,35 @@
+2006-11-28	pcisar
+	* IbOleDb.mak 1.1.1.1:
+	* README.txt 1.1.1.1:
+	* inc/blob.h 1.1.1.1:
+	* inc/command.h 1.1.1.1:
+	* inc/common.h 1.1.1.1:
+	* inc/convert.h 1.1.1.1:
+	* inc/dso.h 1.1.1.1:
+	* inc/ibaccessor.h 1.1.1.1:
+	* inc/iberror.h 1.1.1.1:
+	* inc/iboledb.h 1.1.1.1:
+	* inc/property.h 1.1.1.1:
+	* inc/resource.h 1.1.1.1:
+	* inc/rowset.h 1.1.1.1:
+	* inc/schemarowset.h 1.1.1.1:
+	* inc/session.h 1.1.1.1:
+	* inc/smartlock.h 1.1.1.1:
+	* inc/util.h 1.1.1.1:
+	* res/IBOleDb.rgs 1.1.1.1:
+	* res/IbOleDb.rc 1.1.1.1:
+	* src/blob.cpp 1.1.1.1:
+	* src/command.cpp 1.1.1.1:
+	* src/convert.cpp 1.1.1.1:
+	* src/dso.cpp 1.1.1.1:
+	* src/ibaccessor.cpp 1.1.1.1:
+	* src/iberror.cpp 1.1.1.1:
+	* src/iboledb.cpp 1.1.1.1:
+	* src/iboledb.def 1.1.1.1:
+	* src/property.cpp 1.1.1.1:
+	* src/rowset.cpp 1.1.1.1:
+	* src/schemarowset.cpp 1.1.1.1:
+	* src/session.cpp 1.1.1.1:
+	* src/util.cpp 1.1.1.1:
+		OLE DB driver, Initial import
+
